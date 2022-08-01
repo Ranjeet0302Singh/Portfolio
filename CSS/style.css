@@ -10,7 +10,8 @@
 
 body {
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 16px;
+    /* font-size: 1rem; */
     font-family: poppins, sans-serif;
 }
 
@@ -29,16 +30,19 @@ body {
 ul {
     list-style: none;
 }
+.main-content{
+    padding-left: 270px;
+}
 
 .section {
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 270px;
     right: 0;
-    z-index: 0;
+    z-index: 0; */
     opacity: 1;
     padding: 0 30px;
 
@@ -69,6 +73,7 @@ ul {
     background: var(--skin-color);
     color:#fff;
     border-radius: 40px;
+    border: none;
     display: inline-block;
     white-space: nowrap;
     transition: all 0.3s ease;
@@ -95,7 +100,6 @@ ul {
     position: absolute;
     top: 50px;
     font-size: 1.8rem;
-    /*(self)*/
     /* font-size: 32px;(Video Font Size) */
     text-transform: capitalize;
 }
@@ -240,11 +244,33 @@ h3.my-profession{
     position: relative;
 }
 .home .home-img img{
-    height: 400px;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
 }
 .home-info p{
     margin-bottom:70px ;
     /* font-size: 20px; */
     font-size: 1.2rem;
     color: var(--text-black-700);
+}
+.home-img::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    top: -40px;
+    left: 20px;
+}
+.home-img::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    bottom: -40px ;
+    right: 20px;
 }
