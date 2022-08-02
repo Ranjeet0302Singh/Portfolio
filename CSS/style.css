@@ -30,10 +30,12 @@ body {
 ul {
     list-style: none;
 }
-.main-content{
+
+.main-content {
     padding-left: 270px;
 }
-.hidden{
+
+.hidden {
     display: none !important;
 }
 
@@ -50,34 +52,40 @@ ul {
     padding: 0 30px;
 
 }
-.padd-15{
+
+.padd-15 {
     padding-left: 15px;
     padding-right: 15px;
 }
-.container{
+
+.container {
     max-width: 1100px;
     width: 100%;
     /* background: red; */
     margin: auto;
 }
-.section .container{
+
+.section .container {
     padding-top: 60px;
     padding-bottom: 70px;
 }
-.section-title{
-flex:0 0 100%;
-max-width: 100%;
-/* background: red; */
-margin-bottom: 60px;
+
+.section-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* background: red; */
+    margin-bottom: 60px;
 }
-.section-title h2{
-/* font-size: 40px; */
-font-size: 2.2rem;
-color: var(--text-black-900);
-font-weight: 700;
-position: relative;
+
+.section-title h2 {
+    /* font-size: 40px; */
+    font-size: 2.2rem;
+    color: var(--text-black-900);
+    font-weight: 700;
+    position: relative;
 }
-.section-title h2::before{
+
+.section-title h2::before {
     content: '';
     height: 4px;
     width: 50px;
@@ -86,7 +94,8 @@ position: relative;
     top: 100%;
     left: 0;
 }
-.section-title h2::after{
+
+.section-title h2::after {
     content: '';
     height: 4px;
     width: 25px;
@@ -96,7 +105,8 @@ position: relative;
     left: 0;
     margin-top: 8px;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
     margin-left: -15px;
@@ -104,22 +114,25 @@ position: relative;
     position: relative;
 
 }
-.btn{
+
+.btn {
     /* font-size: 16px; */
     font-size: 1rem;
     font-weight: 500;
     padding: 12px 35px;
     background: var(--skin-color);
-    color:#fff;
+    color: #fff;
     border-radius: 40px;
     border: none;
     display: inline-block;
     white-space: nowrap;
     transition: all 0.3s ease;
 }
-.btn:hover{
+
+.btn:hover {
     transform: scale(1.05);
 }
+
 /* Aside */
 .aside {
     width: 270px;
@@ -135,6 +148,7 @@ position: relative;
     align-items: center;
     border-right: 1px solid var(--bg-black-50);
 }
+
 .aside .logo {
     position: absolute;
     top: 50px;
@@ -171,6 +185,7 @@ position: relative;
     bottom: 0;
     left: 0;
 }
+
 .aside .logo a::after {
     content: '';
     position: absolute;
@@ -181,7 +196,8 @@ position: relative;
     top: 0;
     right: 0;
 }
-.aside .nav-toggle{
+
+.aside .nav-toggle {
     width: 45px;
     height: 40px;
     border: 1px solid var(--bg-black-50);
@@ -190,19 +206,21 @@ position: relative;
     left: 300px;
     top: 20px;
     border-radius: 5px;
-    background:var(--bg-black-100); 
+    background: var(--bg-black-100);
     display: none;
     justify-content: center;
     align-items: center;
 }
-.aside .nav-toggle span{
+
+.aside .nav-toggle span {
     height: 2px;
     width: 18px;
     background: var(--skin-color);
     display: inline-block;
     position: relative;
 }
-.aside .nav-toggle span::before{
+
+.aside .nav-toggle span::before {
     content: '';
     height: 2px;
     width: 18px;
@@ -212,7 +230,8 @@ position: relative;
     left: 0;
 
 }
-.aside .nav-toggle span::after{
+
+.aside .nav-toggle span::after {
     content: '';
     height: 2px;
     width: 18px;
@@ -222,15 +241,18 @@ position: relative;
     left: 0;
 
 }
-.aside .nav{
+
+.aside .nav {
     margin-top: 50px;
 }
-.aside .nav li{
+
+.aside .nav li {
     margin-bottom: 20px;
     /* background: red; */
     display: block;
 }
-.aside .nav li a{
+
+.aside .nav li a {
     font-size: 1rem;
     font-weight: 600;
     display: block;
@@ -238,61 +260,73 @@ position: relative;
     color: var(--text-black-900);
     padding: 5px 15px;
 }
-.aside .nav li a.active{
+
+.aside .nav li a.active {
     color: var(--skin-color);
 }
-.aside .nav li a i{
+
+.aside .nav li a i {
     margin-right: 15px;
 }
+
 /* Home */
-.home{
+.home {
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 }
-.home .home-info{
+
+.home .home-info {
     flex: 0 0 60%;
     max-width: 60%;
 }
-h3.hello{
-/* font-size: 28px; */
-font-size: 1.8rem;
-margin: 15px 0;
+
+h3.hello {
+    /* font-size: 28px; */
+    font-size: 1.8rem;
+    margin: 15px 0;
 }
-h3.hello span{
+
+h3.hello span {
     font-family: 'clicker script';
     /* font-size: 30px; */
     font-size: 2.2rem;
     font-weight: 700;
     color: var(--skin-color);
 }
-h3.my-profession{
+
+h3.my-profession {
     /* font-size: 30px; */
     font-size: 1.8rem;
     margin: 15px 0;
 
 }
-.typing{
+
+.typing {
     color: var(--skin-color);
 }
-.home .home-img{
+
+.home .home-img {
     flex: 0 0 40%;
     max-width: 40%;
     /* background: red; */
     text-align: center;
     position: relative;
 }
-.home .home-img img{
+
+.home .home-img img {
     height: 300px;
     margin: auto;
     border-radius: 5px;
 }
-.home-info p{
-    margin-bottom:70px ;
+
+.home-info p {
+    margin-bottom: 70px;
     /* font-size: 20px; */
     font-size: 1.2rem;
     color: var(--text-black-700);
 }
+
 .home-img::before {
     content: '';
     position: absolute;
@@ -303,6 +337,7 @@ h3.my-profession{
     top: -40px;
     left: 20px;
 }
+
 .home-img::after {
     content: '';
     position: absolute;
@@ -310,31 +345,36 @@ h3.my-profession{
     height: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    bottom: -40px ;
+    bottom: -40px;
     right: 20px;
 }
+
 /* ABout */
-.about .about-content{
+.about .about-content {
     flex: 0 0 100%;
     max-width: 100%;
     /* background-color: red; */
 }
-.about .about-content .about-text{
+
+.about .about-content .about-text {
     flex: 0 0 100%;
     max-width: 100%;
     /* background-color: red; */
 }
-.about .about-content .about-text h3{
+
+.about .about-content .about-text h3 {
     /* font-size: 24px; */
     font-size: 1.5rem;
     margin-bottom: 15px;
     font-weight: 700;
-    color:var(--text-black-900);
+    color: var(--text-black-900);
 }
-.about .about-content .about-text h3 span{
+
+.about .about-content .about-text h3 span {
     color: var(--skin-color);
 }
-.about .about-content .about-text p{
+
+.about .about-content .about-text p {
     /* font-size: 16px; */
     font-size: 1rem;
     line-height: 25px;
@@ -343,41 +383,88 @@ h3.my-profession{
 
 }
 
-.about .about-content .personal-info .info-item{
+.about .about-content .personal-info .info-item {
     flex: 0 0 50%;
     max-width: 50%;
     /* background-color: red; */
 
 }
-.about .about-content .personal-info .info-item p{
-font-size: 1rem;
-font-weight: 600;
-padding: 10px 0;
-color: var(--text-black-900);
-border-bottom: 1px solid var(--bg-black-50);
+
+.about .about-content .personal-info .info-item p {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 0;
+    color: var(--text-black-900);
+    border-bottom: 1px solid var(--bg-black-50);
 }
-.about .about-content .personal-info .info-item p span{
+
+.about .about-content .personal-info .info-item p span {
     font-weight: 400;
     color: var(--text-black-700);
     display: inline-block;
     margin-left: 4px;
 }
-.about .about-content .personal-info{
+
+.about .about-content .personal-info {
     /* background-color: red; */
     flex: 0 0 60%;
     max-width: 60%;
     margin-top: 40px;
 }
-.about .about-content .skills{
+
+.about .about-content .skills {
     /* background-color: aqua; */
     flex: 0 0 40%;
     max-width: 40%;
     margin-top: 40px;
 }
-.about .about-content .personal-info .buttons{
+
+.about .about-content .personal-info .buttons {
     margin-top: 30px;
 }
-.about .about-content .personal-info .btn{
+
+.about .about-content .personal-info .btn {
     margin-right: 15px;
     margin-top: 10px;
+}
+
+.about .about-content .skills .skill-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* background-color: red; */
+    margin-bottom: 30px;
+}
+
+.about .about-content .skills .skill-item h5 {
+    font-size: 1rem;
+    line-height: 40px;
+    font-weight: 600;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+
+.about .about-content .skills .skill-item .progress {
+    background-color: var(--bg-black-50);
+    height: 7px;
+    width: 100%;
+    border-radius: 4px;
+    position: relative;
+}
+
+.about .about-content .skills .skill-item .progress .progress-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--skin-color);
+}
+
+.about .about-content .skills .skill-item .skill-percent {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    font-weight: 400;
+    color: var(--text-black-900);
+    line-height: 40px;
 }
