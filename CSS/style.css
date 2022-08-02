@@ -374,3 +374,10 @@ border-bottom: 1px solid var(--bg-black-50);
     max-width: 40%;
     margin-top: 40px;
 }
+.about .about-content .personal-info .buttons{
+    margin-top: 30px;
+}
+.about .about-content .personal-info .btn{
+    margin-right: 15px;
+    margin-top: 10px;
+}
