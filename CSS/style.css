@@ -129,8 +129,11 @@ ul {
     transition: all 0.3s ease;
 }
 
-.btn:hover {
+.btn:hover { 
     transform: scale(1.05);
+}
+.shadow-dark{
+    box-shadow: 0 0 20px rgba(48,46,77,0.5);
 }
 
 /* Aside */
@@ -473,8 +476,56 @@ h3.my-profession {
     flex: 0 0 50%;
 max-width: 50%;
 margin-top: 30px;
-background-color: red;
+/* background-color: red; */
 }
-.about .about-content .experience{
+/* .about .about-content .experience{
     background-color: rebeccapurple;
+} */
+.about .about-content h3.title{
+    /* font-size: 24px; */
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* background-color: red; */
+}
+.about .about-content .timeline{
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    position:relative;
+}
+.about .about-content .timeline .timeline-item{
+    position: relative;
+    padding-left:37px ;
+    padding-bottom: 50px;
+}
+.about .about-content .timeline .timeline-item:last-child{
+    padding-bottom: 0;
+}
+.about .about-content .timeline .timeline-item::before{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 7px;
+    background-color: var(--skin-color );
+
+}
+.about .about-content .timeline .circle-dot{
+    position: absolute;
+    left: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
+     
 }
